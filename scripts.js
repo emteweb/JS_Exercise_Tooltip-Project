@@ -22,11 +22,11 @@
     var title = document.querySelectorAll("[title]");
 
     function showTooltip(){
-        console.log("Najechałem myszką :)");
+        console.log("Pokazuję tooltip");
     }
 
     function hideTooltip(){
-        console.log("Usunąłem myszkę!");
+        console.log("Usuwam tooltip");
     }
 
     for (var i = 0; i < title.length; i++){
